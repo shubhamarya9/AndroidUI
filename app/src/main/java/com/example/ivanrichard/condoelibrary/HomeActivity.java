@@ -15,14 +15,26 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        //Create and use a button to navigate to the next page
+        //Create a button used to access the sign up page
         Button sign_up = (Button)findViewById(R.id.sign_up);
 
-        //use the button to open a new page
+        //Creating a listener to open the sign up page
         sign_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this,SignUp.class));
+            }
+        });
+
+
+        //Creating a button used to access the book store
+        Button book_store = (Button)findViewById(R.id.login);
+
+        //Create a listener to open the book store page
+        book_store.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this,BookStore.class));
             }
         });
     }

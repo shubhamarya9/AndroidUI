@@ -18,6 +18,7 @@
         </LinearLayout>
 
 
+        <!--Contains content of the page-->
         <android.support.v7.widget.CardView
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
@@ -128,5 +129,7 @@
 
             </ScrollView>
         </android.support.v7.widget.CardView>
+
+
     </RelativeLayout>
 </LinearLayout>
