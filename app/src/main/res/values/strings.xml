@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Condo eLibrary</string>
-    <string name="email">SomeEmail@yahoo.com</string>
+    <string name="email">User Name</string>
     <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
     <string name="register">Register</string>
-    <string name="signedin">Already Signed In</string>
+    <string name="signedin">Not signed in!</string>
     <string name="login">login!</string>
+    <string name="signup">Sign up</string>
 </resources>
